@@ -1,0 +1,32 @@
+img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%;
+  margin-top: 2%;
+  height: 700px;
+  width: 700px;
+}
+.btn{
+  background-color: lightgreen;
+  color: deeppink;
+  position: absolute;
+  font-size: 20px;
+  border: 2px solid green;
+  margin-left: 40%;
+  margin-top: 7%; }
+
+.btn:hover{
+  background-color: green;
+  color: lightgreen;
+  font-size: 20px;
+  border: 2px solid lightgreen;
+  
+ }
+@media screen and (max-width: 500px){
+  img{
+    height:300px ;
+    width: 300px;
+    margin-top: 10%;
+    margin-left: 7%;
+  }
